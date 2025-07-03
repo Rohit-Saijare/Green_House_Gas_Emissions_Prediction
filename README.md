@@ -77,6 +77,23 @@ Executed the following key steps in Week 3:
   Installed Streamlit and created the `app.py` and `utils` directory. Built a user-friendly web app to perform predictions.  
   Used **pyngrok** to generate a public URL for easy external access.
 
+# Final Project Overview
+🌍 Greenhouse Gas Emissions Prediction – AICTE Internship Final Project
+This project focuses on predicting greenhouse gas (GHG) emissions using advanced machine learning techniques as part of the AICTE Virtual Internship program. The goal is to analyze global emission trends and build predictive models that support environmental sustainability and informed decision-making.
+
+🔍 Key Features:
+📊 Data Analysis: In-depth EDA on global GHG emissions datasets.
+
+🤖 Machine Learning Models: Implemented and evaluated models like Linear Regression, Random Forest, and XGBoost.
+
+📈 Prediction Capability: Accurately forecasts future GHG emission levels based on historical data.
+
+📎 Clean and Well-Commented Code: Developed in Python using Jupyter Notebook (Google Colab compatible).
+
+📂 Organized Structure: Contains datasets, notebooks, result visualizations, and reports.
+
+🧠 Tools & Libraries Used:
+Python, Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn
 
 
 
