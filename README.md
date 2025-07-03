@@ -67,7 +67,7 @@ Executed the following key steps in Week 3:
 - **Best Model Evaluation**  
   Evaluated the tuned Random Forest model and compared its performance against the baseline models.
 
-- **Ste 7: Model Comparison and Final Selection**  
+- **Step 7: Model Comparison and Final Selection**  
   Compared performance of all trained models and selected **Linear Regression** as the best performer based on accuracy and simplicity.
 
 - **Model Saving**  
