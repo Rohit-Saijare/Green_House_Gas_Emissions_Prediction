@@ -40,3 +40,44 @@ Specifically, I performed the following steps:
 
 These steps were crucial for **cleaning and preparing the dataset** before building a machine learning model.
 
+
+# Week 3
+
+Executed the following key steps in Week 3:
+
+- **Normalize Features**  
+  Scaled the feature data (`X`) using `StandardScaler` to ensure all features contribute equally during model training.
+
+- **Train-Test Split**  
+  Divided the scaled features and target variable (`y`) into training and testing sets for model evaluation.
+
+- **Model Selection**  
+  Initialized the **Random Forest Regressor** for initial training and evaluation.
+
+- **Step 4: Model Training**  
+  Trained the Random Forest model using the training data to learn patterns and relationships in the dataset.
+
+- **Step 5: Prediction and Evaluation**  
+  Made predictions on the test set and evaluated model performance using **RMSE** and **R²** metrics.  
+  Also trained and evaluated a **Linear Regression** model for performance comparison.
+
+- **Step 6: Hyperparameter Tuning**  
+  Used **GridSearchCV** to tune the Random Forest model and find the best-performing set of parameters.
+
+- **Best Model Evaluation**  
+  Evaluated the tuned Random Forest model and compared its performance against the baseline models.
+
+- **Ste 7: Model Comparison and Final Selection**  
+  Compared performance of all trained models and selected **Linear Regression** as the best performer based on accuracy and simplicity.
+
+- **Model Saving**  
+  Created a `models` directory and saved the best model as `LR_model.pkl` and the `StandardScaler` as `scaler.pkl`.
+
+- **Streamlit App Development**  
+  Installed Streamlit and created the `app.py` and `utils` directory. Built a user-friendly web app to perform predictions.  
+  Used **pyngrok** to generate a public URL for easy external access.
+
+
+
+
+
